@@ -6,6 +6,12 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
+/// <summary>
+/// The purpose of this program is to draw text in such a way that:
+/// A) A single screenshot does not contain any non-random information, and
+/// B) A human is still able to read the text (albeit with a little difficulty).
+/// </summary>
+
 namespace StaticText
 {
     public partial class DemoForm : Form
